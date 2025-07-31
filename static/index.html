@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Booking</title>
+  <link rel="stylesheet" href="/static/static.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🏋️ Fitness Booking System</h1>
+    <p>Book your favorite classes easily!</p>
+
+    <section class="classes">
+      <h2>📅 Available Classes</h2>
+      <ul id="classes-list"></ul>
+    </section>
+
+    <section class="booking">
+      <h2>📝 Book a Class</h2>
+      <form id="booking-form">
+        <label>Class ID: <input name="class_id" type="number" required /></label>
+        <label>Your Name: <input name="client_name" required /></label>
+        <label>Your Email: <input name="client_email" type="email" required /></label>
+        <button type="submit">Book Now</button>
+      </form>
+      <div id="message"></div>
+    </section>
+  </div>
+
+  <script src="/static/script.js" defer></script>
+</body>
+</html>
