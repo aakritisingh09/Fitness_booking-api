@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1. Create virtual environment
 python -m venv venv
 source venv/bin/activate
@@ -19,3 +20,6 @@ curl -X POST http://127.0.0.1:8000/book -H "Content-Type: application/json" \
 
 # Get bookings
 curl http://127.0.0.1:8000/bookings?email=john@example.com
+=======
+# Fitness_booking-api
+>>>>>>> f40221b11729deb0e21fe7959e0866c602499632
